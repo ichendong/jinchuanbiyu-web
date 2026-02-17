@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>金川碧玉 | Jinchuan Biyu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&family=Noto+Sans+TC:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html { 
+        scroll-behavior: smooth; 
+        -webkit-text-size-adjust: 100%;
+      }
+      body { 
+        font-family: 'Noto Sans TC', sans-serif; 
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+      .font-serif { font-family: 'Noto Serif TC', serif; }
+      .font-sans { font-family: 'Noto Sans TC', sans-serif; }
+      
+      /* Mobile optimizations */
+      @media (max-width: 768px) {
+        html, body {
+          font-size: 16px; /* Base font size for mobile */
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
