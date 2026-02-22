@@ -24,9 +24,9 @@ const LandingPage = () => {
   const menuItems = [
     { name: "濟州抹茶拿鐵", kr: "제주 말차 라떼", price: "$120", img: "/assets/menu/matcha_dessert.jpg" },
     { name: "肉桂焦糖拿鐵", kr: "시나몬 카라멜 라떼", price: "$130", img: "/assets/menu/iced_latte.jpg" },
-    { name: "司康", kr: "스콘", price: "$70", img: "/assets/menu/croissant.jpg" },
-    { name: "大醬鍋", kr: "된장찌개", price: "$230", img: "/assets/menu/bingsu.jpg" },
-    { name: "辣炒豬肉蓋飯", kr: "제육볶음", price: "$230", img: "/assets/menu/pour_over_coffee.jpg" },
+    { name: "司康蛋塔", kr: "스콘 에그타르트", price: "$70", img: "/assets/menu/scone.jpg" },
+    { name: "大醬鍋", kr: "된장찌개", price: "$230", img: "/assets/menu/doenjangjjigae.jpg" },
+    { name: "辣炒豬肉蓋飯", kr: "제육덮밥", price: "$230", img: "/assets/menu/pour_over_coffee.jpg" },
     { name: "手沖咖啡", kr: "핸드드립", price: "$150", img: "/assets/menu/latte_art.jpg" }
   ];
 
@@ -54,13 +54,13 @@ const LandingPage = () => {
         /* ========== Container ========== */
         .container {
           width: 100%;
-          max-width: 1200px;
+          max-width: 2160px;
           margin: 0 auto;
-          padding: 0 20px;
+          padding: 0 24px;
         }
         
         @media (min-width: 768px) {
-          .container { padding: 0 40px; }
+          .container { padding: 0 48px; }
         }
         
         /* ========== Navigation ========== */
@@ -97,6 +97,7 @@ const LandingPage = () => {
           font-size: 18px;
           letter-spacing: 0.15em;
           font-weight: 500;
+          color: #8b6852;
         }
         
         /* Desktop Nav Links */
@@ -114,6 +115,7 @@ const LandingPage = () => {
           text-transform: uppercase;
           opacity: 0.75;
           transition: opacity 0.2s;
+          color: #8b6852;
         }
         .nav-link:hover { opacity: 1; }
         .nav-btn {
@@ -134,7 +136,7 @@ const LandingPage = () => {
           background: none;
           border: none;
           cursor: pointer;
-          color: #5D5545;
+          color: #8b6852;
         }
         @media (min-width: 900px) {
           .nav-toggle { display: none; }
@@ -166,7 +168,7 @@ const LandingPage = () => {
           font-size: 24px;
           letter-spacing: 0.15em;
           font-weight: 400;
-          color: #4A4336;
+          color: #8b6852;
         }
         .mobile-menu a:hover {
           color: #8C7B65;
@@ -208,14 +210,15 @@ const LandingPage = () => {
           font-size: 11px;
           letter-spacing: 0.4em;
           text-transform: uppercase;
-          color: #8C7B65;
+          color: #8b6852;
           margin-bottom: 24px;
           font-weight: 500;
+          color: #8b6852;
         }
         .hero-title {
           font-size: clamp(36px, 12vw, 80px);
           line-height: 1.15;
-          color: #4A4336;
+          color: #8b6852;
           margin-bottom: 24px;
         }
         .hero-title span {
@@ -242,7 +245,7 @@ const LandingPage = () => {
           text-transform: uppercase;
           border-bottom: 1px solid #5D5545;
           padding-bottom: 8px;
-          color: #5D5545;
+          color: #8b6852;
         }
         
         /* ========== Story Section ========== */
@@ -304,11 +307,12 @@ const LandingPage = () => {
           text-transform: uppercase;
           color: #8C7B65;
           font-weight: 500;
+          color: #8b6852;
         }
         .story-title {
           font-size: clamp(28px, 6vw, 48px);
           line-height: 1.3;
-          color: #4A4336;
+          color: #8b6852;
           margin: 16px 0 28px;
         }
         .story-text {
@@ -357,10 +361,11 @@ const LandingPage = () => {
           text-transform: uppercase;
           color: #8C7B65;
           font-weight: 500;
+          color: #8b6852;
         }
         .menu-book-title {
           font-size: clamp(28px, 6vw, 42px);
-          color: #4A4336;
+          color: #8b6852;
           margin-top: 12px;
         }
         .menu-book-viewer {
@@ -382,7 +387,7 @@ const LandingPage = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          color: #5D5545;
+          color: #8b6852;
           transition: all 0.2s;
           flex-shrink: 0;
         }
@@ -406,7 +411,7 @@ const LandingPage = () => {
         .menu-book-page img {
           width: 100%;
           height: 100%;
-          object-fit: contain;
+          object-fit: cover;
         }
         .menu-book-pager {
           position: absolute;
@@ -416,7 +421,7 @@ const LandingPage = () => {
           padding: 4px 12px;
           border-radius: 20px;
           font-size: 12px;
-          color: #5D5545;
+          color: #8b6852;
         }
         .menu-book-hint {
           text-align: center;
@@ -444,10 +449,11 @@ const LandingPage = () => {
           text-transform: uppercase;
           color: #8C7B65;
           font-weight: 500;
+          color: #8b6852;
         }
         .signature-title {
           font-size: clamp(28px, 6vw, 42px);
-          color: #4A4336;
+          color: #8b6852;
           margin-top: 12px;
         }
         .signature-grid {
@@ -472,7 +478,8 @@ const LandingPage = () => {
         .menu-card-name {
           font-size: 18px;
           font-weight: 500;
-          color: #4A4336;
+          color: #8b6852;
+          color: #8b6852;
           margin-bottom: 6px;
         }
         .menu-card-en {
@@ -482,7 +489,7 @@ const LandingPage = () => {
         }
         .menu-card-price {
           font-size: 16px;
-          color: #4A4336;
+          color: #8b6852;
           opacity: 0.75;
           margin-top: 8px;
         }
@@ -499,7 +506,8 @@ const LandingPage = () => {
           font-weight: 300;
           line-height: 1.7;
         }
-        .notice strong { font-weight: 500; }
+        .notice strong { font-weight: 500;
+          color: #8b6852; }
         
         /* ========== Footer ========== */
         .footer {
@@ -604,6 +612,7 @@ const LandingPage = () => {
         .footer-section a {
           opacity: 0.8;
           transition: opacity 0.2s;
+          color: #8b6852;
         }
         .footer-section a:hover { opacity: 1; }
         .footer-section p {
@@ -731,17 +740,22 @@ const LandingPage = () => {
               </div>
             </div>
             <div className="story-content">
-              <span className="story-label">Our Heritage</span>
+              <span className="story-label">Our Story</span>
               <h2 className="font-serif story-title">
-                不只是咖啡，<br/>是關於一種生活態度。
+                以長輩之名，<br/>在柳營的老房裡續寫溫暖。
               </h2>
               <div className="story-text">
-                <p>「金川」象徵著流動與傳承，來自外公的名字；「碧玉」則是時間淬鍊後的溫潤，源自外婆的雅名。我們將韓系極簡美學帶入台南柳營日常，每一個角落都經過精心留白。</p>
-                <p>這裡沒有過度的裝飾，只有剛剛好的陽光、手作的溫度，以及那杯希望能溫暖你一整天的拿鐵。就像回到家一樣，簡單而純粹。</p>
+                <p>常有客人好奇地問：「金川碧玉是什麼意思？」每次被問到，我們都會想起那段被溫暖包圍的時光。</p>
+                <p>「金川」是外公，「碧玉」是外婆。</p>
+				<p>這裡不只是咖啡廳，更是外公外婆曾經生活一輩子的地方，也是我從小長大的家。小時候，我就坐在這裡看著外公修理電器、熱情地跟街坊鄰居打招呼。那時候賣的不只是電器，更是人與人之間那種最純粹、最暖心的人情味。</p>
+				<p>後來，我們在韓國生活的那段日子裡，因為太愛跑咖了，走遍了首爾的大街小巷。當時心裡就在想：「要是柳營也能有一個讓大家放鬆坐坐的地方，該有多好？」</p>
+				<p>所以決定回來創業時，腦袋裡第一個浮現的名字就是「金川碧玉」。除了翻成韓文也好聽之外，更多的是想在柳營，用另一種方式延續外公外婆留下的那份溫暖。</p>
+				<p>我們保留了這棟屋子的靈魂，沒有過度的裝飾，只有剛剛好的陽光，以及那杯想溫暖你一整天的拿鐵。就像回到家一樣，簡單而純粹。</p>
+				<p>歡迎常來金川碧玉，找個位子坐坐。</p>
               </div>
               <div className="story-signature">
                 <span className="line" />
-                <span className="font-serif name">Jinchuan Biyu</span>
+                <span className="font-serif name">JinchuanBiyu</span>
               </div>
             </div>
           </div>
@@ -808,7 +822,7 @@ const LandingPage = () => {
       {/* Notice */}
       <section className="notice">
         <div className="container">
-          <p>🍼 <strong>店休公告</strong>：老闆與闆娘迎來新生兒，預計 2 月底回歸。感謝大家的耐心等待！</p>
+          <p>🍼 <strong>店休公告</strong>：老闆與闆娘迎來新生兒，無明確回歸時間。感謝大家的耐心等待！</p>
         </div>
       </section>
 
@@ -856,7 +870,7 @@ const LandingPage = () => {
           </div>
           
           <div className="footer-bottom">
-            © 2026 Cafe Jinchuan Biyu. Handcrafted with ❤️ by OpenClaw.
+            © 2026 Cafe JinchuanBiyu. Handcrafted with ❤️ by Ichen Tung.
           </div>
         </div>
       </footer>
