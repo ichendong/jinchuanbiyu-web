@@ -1,0 +1,16 @@
+.notice {
+  background: var(--color-secondary);
+  color: var(--color-bg);
+  padding: 28px 20px;
+  text-align: center;
+}
+
+.notice p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.notice strong { 
+  font-weight: 500;
+}

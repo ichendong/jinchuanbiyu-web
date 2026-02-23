@@ -1,0 +1,23 @@
+:root {
+  /* Colors */
+  --color-primary: #8b6852;
+  --color-title: #4A4336;
+  --color-secondary: #8C7B65;
+  --color-dark: #5D5545;
+  --color-bg: #F9F7F2;
+  --color-text: rgba(93, 85, 69, 0.85);
+  --color-text-light: rgba(93, 85, 69, 0.8);
+  
+  /* Fonts */
+  --font-serif: 'Noto Serif TC', serif;
+  --font-sans: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Spacing */
+  --container-max: 2160px;
+  --container-padding-mobile: 24px;
+  --container-padding-desktop: 48px;
+  
+  /* Animation */
+  --transition-base: 0.2s ease;
+  --transition-smooth: 0.3s ease;
+}

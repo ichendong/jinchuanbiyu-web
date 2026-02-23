@@ -1,0 +1,123 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: all var(--transition-smooth);
+  padding: 16px 0;
+}
+
+.nav.scrolled {
+  background: rgba(249, 247, 242, 0.95);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.nav-logo-text {
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+.nav-links {
+  display: none;
+  align-items: center;
+  gap: 32px;
+}
+
+@media (min-width: 900px) {
+  .nav-links { display: flex; }
+}
+
+.nav-link {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  transition: opacity var(--transition-base);
+  color: var(--color-primary);
+}
+
+.nav-link:hover { opacity: 1; }
+
+.nav-btn {
+  background: var(--color-dark);
+  color: var(--color-bg);
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  transition: all var(--transition-smooth);
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(93,85,69,0.3);
+}
+
+.nav-toggle {
+  display: block;
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+@media (min-width: 900px) {
+  .nav-toggle { display: none; }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(249, 247, 242, 0.98);
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-smooth);
+}
+
+.mobile-menu.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobile-menu a {
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+.mobile-menu a:hover {
+  color: var(--color-secondary);
+}
