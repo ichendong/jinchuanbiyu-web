@@ -1,0 +1,18 @@
+# 金川碧玉 robots.txt
+# https://jinchuanbiyu.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jinchuanbiyu.com/sitemap.xml
+
+# AI-friendly
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
