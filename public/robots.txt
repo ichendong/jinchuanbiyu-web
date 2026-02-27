@@ -1,11 +1,11 @@
 # 金川碧玉 robots.txt
-# https://jinchuanbiyu.com
+# https://jcby.zeabur.app
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://jinchuanbiyu.com/sitemap.xml
+Sitemap: https://jcby.zeabur.app/sitemap.xml
 
 # AI-friendly
 User-agent: GPTBot
