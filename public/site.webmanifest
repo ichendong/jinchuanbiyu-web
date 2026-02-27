@@ -1,0 +1,21 @@
+{
+  "name": "金川碧玉 | 금천벽옥",
+  "short_name": "金川碧玉",
+  "description": "台南柳營韓式咖啡廳",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8B7355",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
