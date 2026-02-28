@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-bg">
         <img 
-          src="/assets/hero/hero_cream_tone.jpg" 
+          src="/assets/hero/hero_cream_tone.webp" 
           alt="" 
           loading="eager"
         />
