@@ -1,4 +1,3 @@
-import React from 'react';
 import './SignatureMenu.css';
 
 const SignatureMenu = () => {
