@@ -1,4 +1,3 @@
-import React from 'react';
 import { MapPin, Clock, Phone, Coffee, Instagram } from 'lucide-react';
 import './Footer.css';
 
