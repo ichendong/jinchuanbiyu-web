@@ -2,7 +2,7 @@ import './SignatureMenu.css';
 
 const SignatureMenu = () => {
   const menuItems = [
-    { name: "濟州抹茶拿鐵", kr: "제주 말차 ラッテ", price: "$120", img: "/assets/menu/matcha_latte_45.webp" },
+    { name: "濟州抹茶拿鐵", kr: "제주 말차 라떼", price: "$120", img: "/assets/menu/matcha_latte_45.webp" },
     { name: "泡菜豆腐鍋", kr: "김치두부찌개", price: "$230", img: "/assets/menu/kimchi_stew_45.webp" },
     { name: "司康蛋塔", kr: "스콘 에그타르트", price: "$70", img: "/assets/menu/scone_45.webp" },
     { name: "大醬鍋", kr: "된장찌개", price: "$230", img: "/assets/menu/doenjangjjigae_45_v3.webp" },
