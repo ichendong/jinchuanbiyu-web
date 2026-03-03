@@ -50,8 +50,8 @@
       "@context": "https://schema.org",
       "@type": "CafeOrCoffeeShop",
       "name": "金川碧玉",
-      "alternateName": ["Jinchuan Biyu", "금천벽옥"],
-      "description": "台南柳營韓式咖啡廳。以長輩之名，在老房裡續寫溫暖。極簡、溫潤、家族記憶。",
+      "alternateName": ["Jinchuan Biyu", "금천벽옥", "Jinchuan Biyu Cafe"],
+      "description": "台南柳營韓式咖啡廳。以長輩之名，在老房裡續寫溫暖。極簡、溫潤、家族記憶。提供手沖咖啡、韓式家常料理與甜點。",
       "url": "https://jcby.zeabur.app",
       "telephone": "+886986307677",
       "address": {
@@ -68,14 +68,91 @@
         "longitude": 120.3114
       },
       "priceRange": "$$",
-      "servesCuisine": ["韓式", "咖啡", "甜點"],
+      "servesCuisine": ["韓式", "咖啡", "甜點", "台式家常"],
       "sameAs": [
         "https://www.instagram.com/cafe_jinchuanbiyu/"
       ],
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "description": "營業時間不固定，請見 IG 公告"
+        "description": "營業時間不固定，請見 IG 公告。通常 10:15-15:00（最後點餐 14:30）"
+      },
+      "hasMenu": {
+        "@type": "Menu",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "精選單品",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "濟州抹茶拿鐵",
+                "description": "韓國濟州島抹茶拿鐵",
+                "offers": { "@type": "Offer", "price": "120", "priceCurrency": "TWD" }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "大醬鍋",
+                "description": "韓式味噌豆腐鍋",
+                "offers": { "@type": "Offer", "price": "230", "priceCurrency": "TWD" }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "辣炒豬肉蓋飯",
+                "description": "韓式辣炒豬肉配白飯",
+                "offers": { "@type": "Offer", "price": "230", "priceCurrency": "TWD" }
+              },
+              {
+                "@type": "MenuItem",
+                "name": "司康蛋塔",
+                "description": "手工司康蛋塔",
+                "offers": { "@type": "Offer", "price": "70", "priceCurrency": "TWD" }
+              }
+            ]
+          }
+        ]
       }
+    }
+    </script>
+    
+    <!-- FAQ Schema for AEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "金川碧玉的營業時間是什麼時候？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "金川碧玉營業時間通常為 10:15-15:00（最後點餐 14:30），但可能因店休而異動，請參考 Instagram @cafe_jinchuanbiyu 公告。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "金川碧玉有提供訂位服務嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "金川碧玉目前不接受電話訂位，採現場候位。如有特殊需求可私訊 Instagram 詢問。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "金川碧玉的招牌菜是什麼？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "金川碧玉的招牌菜包括大醬鍋（된장찌개）、辣炒豬肉蓋飯（제육덮밥）、濟州抹茶拿鐵（제주 말차 라떼）和司康蛋塔。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "金川碧玉在哪裡？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "金川碧玉位於台南市柳營區中山西路一段239號，電話 0986-307-677。"
+          }
+        }
+      ]
     }
     </script>
   </head>

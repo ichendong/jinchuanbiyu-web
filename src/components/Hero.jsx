@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="hero-bg">
         <img 
           src="/assets/hero/hero_cream_tone.webp" 
-          alt="" 
+          alt="金川碧玉咖啡廳奶油色調店內空間" 
           loading="eager"
         />
       </div>

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand footer-section">
             <div className="footer-logo">
-              <img src="/assets/logo/logo_transparent.png" alt="" loading="lazy" />
+              <img src="/assets/logo/logo_transparent.png" alt="金川碧玉 Logo" loading="lazy" />
               <span className="font-serif footer-logo-text">金川碧玉</span>
             </div>
             <p className="footer-tagline">
